@@ -1,0 +1,28 @@
+Ex de fixação BANCO DE DADOS:
+
+Ex1. 
+
+Cliente(Código_cliente, Nome, Num_casa, Rua, CEP, Cidade)
+Telefone(Código_telefone, telefone)
+
+
+Ex2.
+
+#Segunda forma Normal#
+ItemVenda(NúmeroNF, CódigoTipoProd, NúmeroProd. QtdItem, PreçoItem)
+Produto(CódigoTipoProd, NúmeroProd, DescriçãoProd)
+TipoProd(CodigoTipoProd, DescricaoTipoProd)
+Venda(NúmeroNF, DataVenda, CodReg, CodEmp, NomeEmp)
+
+#Terceira forma Normal#
+ItemVenda(NúmeroNF, CódigoTipoProd, NúmeroProd. QtdItem, PreçoItem)
+Produto(CódigoTipoProd, NúmeroProd, DescriçãoProd)
+TipoProd(CodigoTipoProd, DescricaoTipoProd)
+Venda(NúmeroNF, DataVenda, CodReg)
+Empregado(CodEmp, NomeEmp)
+
+Ex3.
+
+Aluno(NomeAluno, CodAluno, CodLocalNascAluno, NomeLocalNascAluno, CodTurma)
+Turma(CodTurma, CodDisciplina, NomeDisciplina)
+Disciplina(CodDisciplina, NomeDisciplina)
