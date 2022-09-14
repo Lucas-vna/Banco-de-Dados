@@ -23,6 +23,14 @@ Empregado(CodEmp, NomeEmp)
 
 Ex3.
 
-Aluno(NomeAluno, CodAluno, CodLocalNascAluno, NomeLocalNascAluno, CodTurma)
-Turma(CodTurma, CodDisciplina, NomeDisciplina)
-Disciplina(CodDisciplina, NomeDisciplina)
+#Passagem para 2FN#
+(CodAluno, CodTurma)
+(CodAluno, NomeAluno, CodLocalNascAluno, NomeLocalNascAluno)
+(CodTurma, CodDisciplina, NomeDisciplina)
+
+#Passagem para 3FN#
+(CodAluno, CodTurma)
+(CodAluno, NomeAluno, CodLocalNascAluno)
+(CodLocalNascAluno, NomeLocalNascAluno)
+(CodTurma, CodDisciplina)
+(CodDisciplina, NomeDisciplina)
